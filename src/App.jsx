@@ -21,7 +21,7 @@ const App = () => {
   ];
 
   const steps = [
-    { step: '01', title: 'Register for Free', desc: 'Join our community in just a few seconds with your email address' },
+    { step: '01', title: 'Easy Regiatration', desc: 'Join our community in just a few seconds with your email address' },
     { step: '02', title: 'Complete Surveys', desc: 'Answer surveys and studies that match your profile every day' },
     { step: '03', title: 'Get Paid', desc: 'Request withdrawal of your earnings via bank transfer anytime' }
   ];
@@ -45,7 +45,7 @@ const App = () => {
             </div>
             <div className="hidden md:block">
               <a href={signupLink} target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                Join Now - It's Free
+                Join Now
               </a>
             </div>
             <div className="md:hidden">
@@ -203,7 +203,7 @@ const App = () => {
 
           <div className="text-center">
             <a href={signupLink} target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-700 transition-colors">
-              Get Started - Join Free Now
+              Get Started - Join Now
             </a>
           </div>
         </div>
@@ -322,7 +322,7 @@ const App = () => {
             <h3 className="text-3xl font-bold mb-4">Ready to Experience the Difference?</h3>
             <p className="text-xl mb-6 opacity-90">Join millions of users who have discovered a better way to earn money from surveys</p>
             <a href={signupLink} target="_blank" rel="noopener noreferrer" className="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors">
-              Sign Up Now - 100% Free
+              Sign Up Now
             </a>
           </div>
         </div>
@@ -491,7 +491,7 @@ const App = () => {
 
             <h3 className="text-2xl font-bold text-gray-900 mb-6">"Are there any hidden costs or fees?"</h3>
             <p className="text-lg mb-8">
-              Absolutely not. Registration is completely free, participation is free, and standard bank transfers are free. We never charge membership fees, processing fees, or maintenance fees. The only potential cost is if you choose expedited payment options (like same-day transfers), which carry small convenience fees clearly disclosed upfront. However, standard bank transfers, which take 2-5 business days, are always free.
+              Absolutely not. Registration is completely free, and standard bank transfers are free. We never charge membership fees, processing fees, or maintenance fees. The only potential cost is if you choose expedited payment options (like same-day transfers), which carry small convenience fees clearly disclosed upfront. However, standard bank transfers, which take 2-5 business days, are always free.
             </p>
 
             <p className="text-lg mb-8">
@@ -501,7 +501,7 @@ const App = () => {
 
           <div className="text-center mt-12">
             <a href={signupLink} target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-700 transition-colors">
-              Start Earning Today - Join Free
+              Start Earning Today
             </a>
           </div>
         </div>
@@ -531,7 +531,7 @@ const App = () => {
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
                 <CheckCircle className="w-8 h-8 mx-auto mb-2" />
-                <div className="font-semibold">Free Registration</div>
+                <div className="font-semibold">Easy Registration</div>
                 <div className="text-sm opacity-75">No credit card required</div>
               </div>
               <div>
@@ -553,7 +553,7 @@ const App = () => {
           </div>
 
           <a href={signupLink} target="_blank" rel="noopener noreferrer" className="bg-white text-blue-600 px-12 py-4 rounded-lg font-bold text-xl hover:bg-gray-100 transition-colors mb-6 inline-block">
-            Start Earning With Surveoo - Join Free Now!
+            Start Earning With Surveoo
           </a>
 
           <div className="text-sm opacity-75 mb-8">
