@@ -58,7 +58,7 @@ const App = () => {
       </nav>
 
       {/* Hero Section */}
-      <section className="bg-blue-50 py-20">
+      <section className="bg-blue-50 py-5 lg:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <div className="inline-flex items-center bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
@@ -69,10 +69,7 @@ const App = () => {
               Turn Your Opinions Into Real Money
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed">
-              In today's digital economy, your opinions have real value. Companies around the world are desperately seeking consumer insights to improve their products and services, and they're willing to pay handsomely for your thoughts. Surveoo connects you directly with these opportunities, allowing you to monetize your spare time by sharing your honest opinions through carefully curated surveys from Fortune 500 companies and emerging brands alike.
-            </p>
-            <p className="text-lg text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed">
-              Whether you're a stay-at-home parent looking to contribute to household income, a student seeking flexible earning opportunities, or simply someone who wants to make their commute more profitable, Surveoo provides a legitimate and reliable way to earn money online. With over 29 million registered users across 197 countries, we've established ourselves as the world's most trusted survey platform, paying out millions of dollars to our members every month.
+              In today's digital economy, your opinions have real value. Companies around the world are desperately seeking consumer insights to improve their products and services, and they're willing to pay handsomely for your thoughts. 
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
               <a href={signupLink} target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-700 transition-colors flex items-center group">
