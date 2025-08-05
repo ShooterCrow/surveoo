@@ -235,11 +235,11 @@ const App = () => {
               <h3 className="text-xl font-bold text-gray-900 mb-4">Real Member Earnings Examples:</h3>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-blue-600 mb-2">60,500/month</div>
+                  <div className="text-2xl font-bold text-blue-600 mb-2">₦60,500/month</div>
                   <div className="text-sm text-gray-600">Casual participant<br />3-4 surveys weekly</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-blue-600 mb-2">160,500/month</div>
+                  <div className="text-2xl font-bold text-blue-600 mb-2">₦160,500/month</div>
                   <div className="text-sm text-gray-600">Regular participant<br />1-2 surveys daily</div>
                 </div>
                 <div className="text-center">
