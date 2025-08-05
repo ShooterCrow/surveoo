@@ -1,12 +1,230 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-NG">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+    <!-- Basic Meta Tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Primary Meta Tags -->
+    <title>
+      Surveoo - Online Surveys Nigeria - Worldwide
+    </title>
+    <meta
+      name="title"
+      content="Surveoo Nigeria - Premium Freelance & Gig Opportunities | Connect, Work, Earn"
+    />
+    <meta
+      name="description"
+      content="Nigeria's leading platform connecting skilled freelancers with quality gig opportunities. Find verified projects in writing, design, tech, marketing and more. Join thousands of Nigerian professionals earning through legitimate freelance work."
+    />
+    <meta
+      name="keywords"
+      content="Nigeria freelance, gig economy Nigeria, freelance jobs Nigeria, remote work Nigeria, online jobs Nigeria, freelancer platform, gig work, digital skills Nigeria, work from home Nigeria, Nigerian freelancers"
+    />
+    <meta name="author" content="Surveoo Nigeria" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/icon.png" />
+    <link rel="apple-touch-icon" href="/icon.png" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://surveoo.vercel.app/" />
+    <meta
+      property="og:title"
+      content="Surveoo Nigeria - Premium Freelance & Gig Opportunities"
+    />
+    <meta
+      property="og:description"
+      content="Nigeria's leading platform connecting skilled freelancers with quality gig opportunities. Join thousands of Nigerian professionals earning through verified projects."
+    />
+    <meta property="og:image" content="https://surveoo.vercel.app/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="Surveoo Nigeria" />
+    <meta property="og:locale" content="en_NG" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://surveoo.vercel.app/" />
+    <meta
+      property="twitter:title"
+      content="Surveoo Nigeria - Premium Freelance & Gig Opportunities"
+    />
+    <meta
+      property="twitter:description"
+      content="Nigeria's leading platform connecting skilled freelancers with quality gig opportunities. Join thousands of Nigerian professionals earning through verified projects."
+    />
+    <meta
+      property="twitter:image"
+      content="https://surveoo.vercel.app/og-image.jpg"
+    />
+    <meta property="twitter:site" content="@majorgiznigeria" />
+    <meta property="twitter:creator" content="@majorgiznigeria" />
+
+    <!-- LinkedIn -->
+    <meta property="linkedin:owner" content="Surveoo Nigeria" />
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Surveoo Nigeria",
+        "url": "https://surveoo.vercel.app",
+        "description": "Nigeria's leading platform connecting skilled freelancers with quality gig opportunities",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Surveoo Nigeria",
+          "url": "https://surveoo.vercel.app",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://surveoo.vercel.app/logo.png"
+          },
+          "sameAs": [
+            "https://facebook.com/majorgiznigeria",
+            "https://twitter.com/majorgiznigeria",
+            "https://instagram.com/majorgiznigeria",
+            "https://linkedin.com/company/Surveoo-nigeria"
+          ]
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://surveoo.vercel.app/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+
+    <!-- Business Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Surveoo Nigeria",
+        "description": "Premium freelance and gig opportunity platform in Nigeria",
+        "url": "https://surveoo.vercel.app",
+        "telephone": "+234-XXX-XXX-XXXX",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "NG",
+          "addressLocality": "Lagos",
+          "addressRegion": "Lagos State"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "6.5244",
+          "longitude": "3.3792"
+        },
+        "openingHours": "Mo-Su 00:00-23:59",
+        "priceRange": "Free to join",
+        "image": "https://surveoo.vercel.app/business-image.jpg"
+      }
+    </script>
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="geo.region" content="NG" />
+    <meta name="geo.placename" content="Nigeria" />
+    <meta name="geo.position" content="6.5244;3.3792" />
+    <meta name="ICBM" content="6.5244, 3.3792" />
+
+    <!-- Mobile App Meta Tags -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" content="Surveoo NG" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://surveoo.vercel.app/" />
+
+    <!-- Alternate hreflang for different regions -->
+    <link rel="alternate" hreflang="en-ng" href="https://surveoo.vercel.app/" />
+    <link rel="alternate" hreflang="en" href="https://surveoo.vercel.app/" />
+
+    <!-- Preconnect to external domains -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://pagead2.googlesyndication.com" /> -->
+
+    <!-- DNS Prefetch -->
+    <!-- <link rel="dns-prefetch" href="//google-analytics.com" />
+    <link rel="dns-prefetch" href="//googletagmanager.com" /> -->
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#1a73e8" />
+    <meta name="msapplication-TileColor" content="#1a73e8" />
+    <meta name="msapplication-navbutton-color" content="#1a73e8" />
+
+    <!-- Security -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://pagead2.googlesyndication.com https://appverification.net https://googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https:;" /> -->
+
+    <!-- Google AdSense -->
+    <meta name="google-adsense-account" content="ca-pub-7797684064069653" />
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7797684064069653"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- TikTok Pixel (replace with your actual pixel ID) -->
+    <!-- <script>
+      !function (w, d, t) {
+        w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=i+"?sdkid="+e+"&lib="+t;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(o,a)};
+        ttq.load('YOUR_TIKTOK_PIXEL_ID');
+        ttq.page();
+      }(window, document, 'ttq');
+    </script> -->
+
+    <!-- Facebook Pixel (replace with your actual pixel ID) -->
+    <!-- <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', 'YOUR_FACEBOOK_PIXEL_ID');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=YOUR_FACEBOOK_PIXEL_ID&ev=PageView&noscript=1"
+    /></noscript> -->
+
+    <!-- Google Analytics 4 (replace with your actual measurement ID) -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID');
+    </script> -->
+
+    <!-- Original verification script -->
+    <script type="text/javascript" id="ogjs" src="https://verifysuper.com/cl/js/o6nnnq"></script>
+
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/src/main.jsx" as="script" />
   </head>
   <body>
+    <!-- Adsterra Ad -->
+    <!-- <script
+      async="async"
+      data-cfasync="false"
+      src="//pl27339415.profitableratecpm.com/7356204c3f8671e19bf21f17925fdc39/invoke.js"
+    ></script>
+    <div id="container-7356204c3f8671e19bf21f17925fdc39"></div> -->
+    <!-- Main app container -->
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
